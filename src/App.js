@@ -5,7 +5,7 @@ import { router } from './routes/Routes';
 
 function App() {
   return (
-    <div className='max-w-full overflow-auto'>
+    <div className='max-w-screen'>
       <RouterProvider router={router}>
       </RouterProvider>
       <Toaster />
