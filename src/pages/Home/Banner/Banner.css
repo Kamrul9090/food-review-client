@@ -1,0 +1,14 @@
+.bg-img {
+    background-image: url('../../../assets/banner/banner.jpg');
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 560px) {
+    .bg-img {
+        height: 500px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}

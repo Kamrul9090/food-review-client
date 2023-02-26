@@ -1,0 +1,228 @@
+[
+    {
+        "category": "1",
+        "fish_category": [
+            {
+                "image": "https://i.ibb.co/LpwJB3r/fish-1.jpg",
+                "name": "Salmon",
+                "old_price": 29.99,
+                "new_price": 24.49,
+                "rating": 4.8,
+                "taste": "rich, tender, buttery",
+                "des": "It’s a weeknight mainstay for a reason. Salmon is beloved for its versatility, quick cook time and mild flavor. Even fish haters can get down with its subtle taste, especially if it’s in a creamy sauce or coated in spices or fruit salsa. Like most fish, salmon can be baked, broiled, pan-fried, sauteed, slow-cooked and grilled. Wild salmon tends to be a bit lower in fat and higher in protein, vitamins and minerals, so choose it over farmed when possible."
+            },
+            {
+                "image": "https://i.ibb.co/dKB4JK5/fish-2.jpg",
+                "name": "Tuna Fish",
+                "old_price": 39.99,
+                "new_price": 38.49,
+                "rating": 4.8,
+                "taste": "fatty, meaty, firm",
+                "des": "Tuna is another popular choice, thanks to its mild but luxurious flavor and versatility. The light canned kind—which is typically skipjack tuna—is the leanest and lowest in mercury. Bluefin, yellowfin and white tuna (aka albacore) tend to be higher in mercury, but not detrimentally so—it’s still safe to eat them all in moderation. Tuna steaks are prime for searing in a pan or popping on the grill. Tuna is also popularly served raw in poke bowls and sushi."
+            },
+            {
+                "image": "https://i.ibb.co/h1MKkXS/fish-3.jpg",
+                "name": "Pacific Halibut",
+                "old_price": 59.99,
+                "new_price": 48.49,
+                "rating": 4.8,
+                "taste": "firm, meaty, mild",
+                "des": "If you don’t consider yourself a fish person (heck, even if you consider yourself a fish hater), Pacific halibut is a nice place to start. It has minimal fishiness in flavor, as well as a palatable, firm mouthfeel that makes it feel meatier than some other fish, thanks to its higher collagen content. Pacific halibut is also loaded with potassium and vitamin D. Like flounder, halibut is a flatfish, meaning it swims sideways and has both eyes on one side of its body. Its texture makes it great for roasting and broiling, since it won’t dry out, but you can also pan-sear, bake, grill or braise it. Avoid Atlantic halibut if possible, as it’s already overfished."
+            },
+            {
+                "image": "https://i.ibb.co/mSR7LBy/fish-4.jpg",
+                "name": "Atlantic Mackerel",
+                "old_price": 69.99,
+                "new_price": 58.49,
+                "rating": 5.0,
+                "taste": "flaky, oily, rich",
+                "des": "Some of the vitamin-rich fish on this list may make this surprising, but not many foods contain a ton of natural vitamin D. Then there’s mackerel, which is not only packed to the gills with it, but it also contains 21 grams of protein per fillet. It has a rich, soft texture and a pronounced flavor that’s sweet and fishy, kind of like tuna. The darker parts of its meat have a stronger taste, so feel free to cut them out for a milder flavor. It’s commonly roasted, baked, pan-seared and even fried. Atlantic mackerel is our pick for its low mercury content (king and Spanish mackerel alternatively have high mercury levels)."
+            },
+            {
+                "image": "https://i.ibb.co/dPh3L06/fish-5.jpg",
+                "name": "Mahi-mahi (dolphinfish)",
+                "old_price": 39.99,
+                "new_price": 48.49,
+                "rating": 4.3,
+                "taste": "firm, sweet",
+                "des": "This pick is super lean since it’s only 1 percent fat by weight. Mahi-mahi has sweet, moist flesh that makes it a solid alternative to tuna or salmon. A tropical fish, mahi-mahi is often paired with warm spices, acidic marinades and fruit salsas starring mango or pineapple. Even better, its firm structure means it can hold its shape against any marinade or cooking method, even grilling. Look for mahi-mahi sourced from Ecuador if you’d like to shop sustainably."
+            },
+            {
+                "image": "https://i.ibb.co/Yfvx1MJ/fish-6.jpg",
+                "name": "Swordfish",
+                "old_price": 29.99,
+                "new_price": 13.49,
+                "rating": 3.8,
+                "taste": "meaty, dense, oily",
+                "des": "Needless to say, swordfish are named for their sharp “sword” bills that they use to hunt. Thanks to their meaty texture and dense flesh, swordfish are great for cubing and grilling or searing by the steak. Because of how they’re caught, swordfish tend to be on the pricy side, so save it for the menu for your next fancy dinner party to justify the splurge."
+            }
+        ]
+    },
+    {
+        "category": "2",
+        "meat_category": [
+            {
+                "image": "https://i.ibb.co/fGd40jy/Grilled-Ribeye-Steak.jpg",
+                "name": "Grilled Ribeye Steak",
+                "old_price": 59.99,
+                "new_price": 95.49,
+                "rating": 4.8,
+                "description": "A juicy 12 oz. ribeye steak, perfectly seasoned and seared to perfection on the grill. Served with your choice of two sides."
+            },
+            {
+                "image": "https://i.ibb.co/WBLGwXf/Bacon-Wrapped-Filet-Mignon.jpg",
+                "name": "Bacon-Wrapped Filet Mignon",
+                "old_price": 129.99,
+                "new_price": 99.49,
+                "rating": 4.2,
+                "description": "A 6 oz. filet mignon wrapped in savory bacon, grilled to your liking and topped with garlic butter. Served with mashed potatoes and steamed veggies."
+            },
+            {
+                "image": "https://i.ibb.co/CJgN6x3/Slow-Cooked-BBQ-Ribs.jpg",
+                "name": "Slow-Cooked BBQ Ribs",
+                "old_price": 97.99,
+                "new_price": 87.49,
+                "rating": 3.3,
+                "description": "Fall-off-the-bone tender pork ribs, coated in our signature BBQ sauce and slow-cooked to perfection. Served with mac and cheese and coleslaw."
+            },
+            {
+                "image": "https://i.ibb.co/ZBCdG1B/Beef-Bulgogi.jpg",
+                "name": "Beef Bulgogi",
+                "old_price": 119.99,
+                "new_price": 112.49,
+                "rating": 4.7,
+                "description": "Thinly sliced beef marinated in a sweet and savory sauce, grilled to perfection and served over a bed of rice. Topped with green onions and sesame seeds."
+            },
+            {
+                "image": "https://i.ibb.co/v48ncPh/Chicken-Parmesan.jpg",
+                "name": "Chicken Parmesan",
+                "old_price": 229.99,
+                "new_price": 128.49,
+                "rating": 5.0,
+                "description": "Breaded chicken breast smothered in marinara sauce and melted mozzarella cheese. Served with a side of spaghetti and garlic bread."
+            },
+            {
+                "image": "https://i.ibb.co/fkJ3N2Z/Lamb-Chops.jpg",
+                "name": "Lamb Chops",
+                "old_price": 78.99,
+                "new_price": 83.59,
+                "rating": 4.3,
+                "description": "Juicy lamb chops seasoned with rosemary and garlic, grilled to perfection and served with a side of roasted potatoes and sautéed green beans."
+            },
+            {
+                "image": "https://i.ibb.co/5RJ0sKT/Pork-Belly-Tacos.jpg",
+                "name": "Pork Belly Tacos",
+                "old_price": 123.99,
+                "new_price": 100.49,
+                "rating": 4.0,
+                "description": "Tender pork belly cooked to crispy perfection, topped with pickled onions, cilantro, and avocado. Served on warm corn tortillas with a side of salsa and lime wedges."
+            },
+            {
+                "image": "https://i.ibb.co/n0DwJ4p/Beef-Brisket.jpg",
+                "name": "Beef Brisket",
+                "old_price": 229.99,
+                "new_price": 248.49,
+                "rating": 4.9,
+                "description": "Slow-smoked beef brisket, rubbed with our signature blend of spices and served with a side of baked beans and cornbread."
+            }
+        ]
+    },
+    {
+        "category": "3",
+        "burger_category": [
+            {
+                "image": "https://i.ibb.co/sHKqRS5/Classic-Burger.jpg",
+                "name": "Classic Burger",
+                "old_price": 8.99,
+                "new_price": 7.99,
+                "rating": 4.5,
+                "description": "Our Classic Burger is made with a juicy beef patty, topped with crispy bacon, melted cheddar cheese, fresh lettuce, tomato, and our signature sauce. Served on a toasted sesame seed bun, this burger is a timeless favorite that never disappoints. Try it today!"
+            },
+            {
+                "image": "https://i.ibb.co/Pc52hjw/BBQ-Bacon-Burger.jpg",
+                "name": "BBQ Bacon Burger",
+                "old_price": 9.99,
+                "new_price": 8.49,
+                "rating": 4.8,
+                "description": "Our BBQ Bacon Burger is a mouth-watering delight that combines smoky BBQ sauce, crispy bacon, and melted Swiss cheese with a juicy beef patty. Topped with lettuce, tomato, and onion, this burger is a perfect balance of sweet and savory. Served on a brioche bun, it's a must-try for any burger lover!"
+            },
+            {
+                "image": "https://i.ibb.co/Y04Q3Z1/Mushroom-Swiss-Burger.jpg",
+                "name": "Mushroom Swiss Burger",
+                "old_price": 10.49,
+                "new_price": 8.99,
+                "rating": 4.6,
+                "description": "Our Mushroom Swiss Burger is a rich and flavorful burger that features sautéed mushrooms, melted Swiss cheese, and our special sauce. The juicy beef patty is cooked to perfection and served on a toasted Kaiser bun. This burger is a favorite among mushroom lovers!"
+            },
+            {
+                "image": "https://i.ibb.co/0nw1KkP/Double-Cheeseburger.jpg",
+                "name": "Double Cheeseburger",
+                "old_price": 11.99,
+                "new_price": 9.99,
+                "rating": 4.9,
+                "description": "Our Double Cheeseburger is a cheese-lover's dream come true! Two juicy beef patties are stacked high with melted American cheese, crispy lettuce, tomato, onion, and pickles. Served on a sesame seed bun, this burger is a true classic that's perfect for any occasion."
+            },
+            {
+                "image": "https://i.ibb.co/VBV27YY/Veggie-Burger.jpg",
+                "name": "Veggie Burger",
+                "old_price": 8.49,
+                "new_price": 6.99,
+                "rating": 4.2,
+                "description": "Our Veggie Burger is a healthy and delicious alternative to traditional burgers. Made with a plant-based patty, this burger is topped with fresh lettuce, tomato, onion, and our special sauce. Served on a whole wheat bun, it's a guilt-free meal that's perfect for vegetarians and meat-lovers alike!"
+            },
+            {
+                "image": "https://i.ibb.co/RgjJ7Vq/Jalape-o-Burger.jpg",
+                "name": "Jalapeño Burger",
+                "old_price": 92.99,
+                "new_price": 64.99,
+                "rating": 4.2,
+                "description": "Our Veggie Burger is a healthy and delicious alternative to traditional burgers. Made with a plant-based patty, tomato, onion, and our special sauce. Served on a whole wheat bun, it's a guilt-free meal that's perfect for vegetarians and meat-lovers alike!"
+            }
+        ]
+    },
+    {
+        "category": "4",
+        "rice_category": [
+            {
+                "image": "https://i.ibb.co/mGhbX8g/Chicken-Biryani.jpg",
+                "name": "Chicken Biryani",
+                "old_price": 10.99,
+                "new_price": 8.99,
+                "rating": 4.5,
+                "description": "A classic South Asian dish made with aromatic basmati rice, tender chicken pieces, and a blend of flavorful spices. This dish is served with raita (a yogurt-based sauce) and is a staple at special occasions and celebrations. Our version is made with the freshest ingredients and traditional cooking techniques, ensuring that each bite is packed with flavor and authenticity."
+            },
+            {
+                "image": "https://i.ibb.co/m6Gf9wJ/Veggie-Fried-Rice.jpg",
+                "name": "Veggie Fried Rice",
+                "old_price": 7.99,
+                "new_price": 6.99,
+                "rating": "4.2",
+                "description": "A delicious and healthy twist on the classic fried rice recipe. Our Veggie Fried Rice is loaded with fresh vegetables like carrots, peas, and bell peppers, and cooked in a wok with fragrant jasmine rice. Seasoned with soy sauce and sesame oil, this dish is bursting with umami flavors and is perfect for a quick and satisfying meal."
+            },
+            {
+                "image": "https://i.ibb.co/BnK8h7h/Mushroom-Risotto.jpg",
+                "name": "Mushroom Risotto",
+                "old_price": 12.99,
+                "new_price": 10.99,
+                "rating": 4.8,
+                "description": "Creamy and indulgent, our Mushroom Risotto is a comfort food classic. Arborio rice is slowly cooked in a broth infused with sautéed mushrooms, onions, and garlic, then finished with butter and grated parmesan cheese. The result is a rich and velvety dish that is perfect for a cozy night in or a special dinner party."
+            },
+            {
+                "image": "https://i.ibb.co/jhD0S72/Shrimp-Jambalaya.jpg",
+                "name": "Shrimp Jambalaya",
+                "old_price": 14.99,
+                "new_price": 12.99,
+                "rating": 4.6,
+                "description": "This spicy and savory dish from the southern United States is a true crowd-pleaser. Our Shrimp Jambalaya is made with Cajun-seasoned rice, juicy shrimp, andouille sausage, and plenty of vegetables like peppers and onions. It's a hearty and satisfying meal that is perfect for sharing with family and friends."
+            },
+            {
+                "image": "https://i.ibb.co/JjwQ1Xp/Sushi-Rolls.jpg",
+                "name": "Sushi Rolls",
+                "old_price": 18.99,
+                "new_price": 16.99,
+                "rating": 4.9,
+                "description": "A Japanese classic that needs no introduction, our Sushi Rolls are made with the freshest ingredients and the highest quality sushi rice. Our chefs carefully craft each roll, adding fillings like crab, avocado, and cucumber, and then slicing them into bite-sized pieces. Served with soy sauce, pickled ginger, and wasabi, our Sushi Rolls are a true taste of Japan."
+            }
+        ]
+    }
+]

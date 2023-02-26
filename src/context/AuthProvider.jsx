@@ -1,6 +1,7 @@
 import React, { createContext, useEffect, useState } from 'react';
 import { createUserWithEmailAndPassword, getAuth, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from 'firebase/auth';
 import app from '../firebase/firebase'
+import { json } from 'react-router-dom';
 export const AuthContext = createContext(null)
 const auth = getAuth(app)
 
@@ -18,10 +19,16 @@ const AuthProvider = ({ children }) => {
             rootElement.classList.add("light")
             rootElement.classList.remove("dark")
         }
+        const storedTheme = JSON.parse(localStorage.getItem("theme"));
+        setTheme(storedTheme)
     }, [theme])
 
     const toggleTheme = () => {
         setTheme(!theme)
+
+        // save the value to the local storage
+        localStorage.setItem("theme", !theme)
+
     }
     console.log(user);
     // create user with email password
@@ -37,6 +44,7 @@ const AuthProvider = ({ children }) => {
     }
     // Sign in with social media
     const SignIn = (provider) => {
+        setLoader(true)
         return signInWithPopup(auth, provider);
     }
     // Sign Out

@@ -1,0 +1,66 @@
+[
+    {
+        "image": "https://i.ibb.co/fGd40jy/Grilled-Ribeye-Steak.jpg",
+        "name": "Grilled Ribeye Steak",
+        "old_price": 59.99,
+        "new_price": 95.49,
+        "rating": 4.8,
+        "description": "A juicy 12 oz. ribeye steak, perfectly seasoned and seared to perfection on the grill. Served with your choice of two sides."
+    },
+    {
+        "image": "https://i.ibb.co/WBLGwXf/Bacon-Wrapped-Filet-Mignon.jpg",
+        "name": "Bacon-Wrapped Filet Mignon",
+        "old_price": 129.99,
+        "new_price": 99.49,
+        "rating": 4.2,
+        "description": "A 6 oz. filet mignon wrapped in savory bacon, grilled to your liking and topped with garlic butter. Served with mashed potatoes and steamed veggies."
+    },
+    {
+        "image": "https://i.ibb.co/CJgN6x3/Slow-Cooked-BBQ-Ribs.jpg",
+        "name": "Slow-Cooked BBQ Ribs",
+        "old_price": 97.99,
+        "new_price": 87.49,
+        "rating": 3.3,
+        "description": "Fall-off-the-bone tender pork ribs, coated in our signature BBQ sauce and slow-cooked to perfection. Served with mac and cheese and coleslaw."
+    },
+    {
+        "image": "https://i.ibb.co/ZBCdG1B/Beef-Bulgogi.jpg",
+        "name": "Beef Bulgogi",
+        "old_price": 119.99,
+        "new_price": 112.49,
+        "rating": 4.7,
+        "description": "Thinly sliced beef marinated in a sweet and savory sauce, grilled to perfection and served over a bed of rice. Topped with green onions and sesame seeds."
+    },
+    {
+        "image": "https://i.ibb.co/v48ncPh/Chicken-Parmesan.jpg",
+        "name": "Chicken Parmesan",
+        "old_price": 229.99,
+        "new_price": 128.49,
+        "rating": 5.0,
+        "description": "Breaded chicken breast smothered in marinara sauce and melted mozzarella cheese. Served with a side of spaghetti and garlic bread."
+    },
+    {
+        "image": "https://i.ibb.co/fkJ3N2Z/Lamb-Chops.jpg",
+        "name": "Lamb Chops",
+        "old_price": 78.99,
+        "new_price": 83.59,
+        "rating": 4.3,
+        "description": "Juicy lamb chops seasoned with rosemary and garlic, grilled to perfection and served with a side of roasted potatoes and sautéed green beans."
+    },
+    {
+        "image": "https://i.ibb.co/5RJ0sKT/Pork-Belly-Tacos.jpg",
+        "name": "Pork Belly Tacos",
+        "old_price": 123.99,
+        "new_price": 100.49,
+        "rating": 4.0,
+        "description": "Tender pork belly cooked to crispy perfection, topped with pickled onions, cilantro, and avocado. Served on warm corn tortillas with a side of salsa and lime wedges."
+    },
+    {
+        "image": "https://i.ibb.co/n0DwJ4p/Beef-Brisket.jpg",
+        "name": "Beef Brisket",
+        "old_price": 229.99,
+        "new_price": 248.49,
+        "rating": 4.9,
+        "description": "Slow-smoked beef brisket, rubbed with our signature blend of spices and served with a side of baked beans and cornbread."
+    }
+]

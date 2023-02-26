@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Ama Watson",
+        "images": "https://i.ibb.co/Tt8PV6x/chef-4.jpg",
+        "position": "Main Chef"
+    },
+    {
+        "name": "Korim uddin",
+        "images": "https://i.ibb.co/dPxP1Kk/chef-2.jpg",
+        "position": "Main Chef"
+    },
+    {
+        "name": "Rajib Bahadur",
+        "images": "https://i.ibb.co/XXHtmNh/chef-3.jpg",
+        "position": "Main Chef"
+    },
+    {
+        "name": "Mr. Karim Khan",
+        "images": "https://i.ibb.co/C0fJwZd/chef-1.jpg",
+        "position": "Main Chef"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+        "image": "https://i.ibb.co/mGhbX8g/Chicken-Biryani.jpg",
+        "name": "Chicken Biryani",
+        "old_price": 10.99,
+        "new_price": 8.99,
+        "rating": 4.5,
+        "description": "A classic South Asian dish made with aromatic basmati rice, tender chicken pieces, and a blend of flavorful spices. This dish is served with raita (a yogurt-based sauce) and is a staple at special occasions and celebrations. Our version is made with the freshest ingredients and traditional cooking techniques, ensuring that each bite is packed with flavor and authenticity."
+    },
+    {
+        "image": "https://i.ibb.co/m6Gf9wJ/Veggie-Fried-Rice.jpg",
+        "name": "Veggie Fried Rice",
+        "old_price": 7.99,
+        "new_price": 6.99,
+        "rating": "4.2",
+        "description": "A delicious and healthy twist on the classic fried rice recipe. Our Veggie Fried Rice is loaded with fresh vegetables like carrots, peas, and bell peppers, and cooked in a wok with fragrant jasmine rice. Seasoned with soy sauce and sesame oil, this dish is bursting with umami flavors and is perfect for a quick and satisfying meal."
+    },
+    {
+        "image": "https://i.ibb.co/BnK8h7h/Mushroom-Risotto.jpg",
+        "name": "Mushroom Risotto",
+        "old_price": 12.99,
+        "new_price": 10.99,
+        "rating": 4.8,
+        "description": "Creamy and indulgent, our Mushroom Risotto is a comfort food classic. Arborio rice is slowly cooked in a broth infused with sautéed mushrooms, onions, and garlic, then finished with butter and grated parmesan cheese. The result is a rich and velvety dish that is perfect for a cozy night in or a special dinner party."
+    },
+    {
+        "image": "https://i.ibb.co/jhD0S72/Shrimp-Jambalaya.jpg",
+        "name": "Shrimp Jambalaya",
+        "old_price": 14.99,
+        "new_price": 12.99,
+        "rating": 4.6,
+        "description": "This spicy and savory dish from the southern United States is a true crowd-pleaser. Our Shrimp Jambalaya is made with Cajun-seasoned rice, juicy shrimp, andouille sausage, and plenty of vegetables like peppers and onions. It's a hearty and satisfying meal that is perfect for sharing with family and friends."
+    },
+    {
+        "image": "https://i.ibb.co/JjwQ1Xp/Sushi-Rolls.jpg",
+        "name": "Sushi Rolls",
+        "old_price": 18.99,
+        "new_price": 16.99,
+        "rating": 4.9,
+        "description": "A Japanese classic that needs no introduction, our Sushi Rolls are made with the freshest ingredients and the highest quality sushi rice. Our chefs carefully craft each roll, adding fillings like crab, avocado, and cucumber, and then slicing them into bite-sized pieces. Served with soy sauce, pickled ginger, and wasabi, our Sushi Rolls are a true taste of Japan."
+    }
+]

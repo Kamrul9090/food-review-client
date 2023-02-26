@@ -1,0 +1,56 @@
+[
+    {
+        "image": "https://i.ibb.co/LpwJB3r/fish-1.jpg",
+        "name": "Salmon",
+        "old_price": 29.99,
+        "new_price": 24.49,
+        "rating": 4.8,
+        "taste": "rich, tender, buttery",
+        "des": "It’s a weeknight mainstay for a reason. Salmon is beloved for its versatility, quick cook time and mild flavor. Even fish haters can get down with its subtle taste, especially if it’s in a creamy sauce or coated in spices or fruit salsa. Like most fish, salmon can be baked, broiled, pan-fried, sauteed, slow-cooked and grilled. Wild salmon tends to be a bit lower in fat and higher in protein, vitamins and minerals, so choose it over farmed when possible."
+    },
+    {
+        "image": "https://i.ibb.co/dKB4JK5/fish-2.jpg",
+        "name": "Tuna Fish",
+        "old_price": 39.99,
+        "new_price": 38.49,
+        "rating": 4.8,
+        "taste": "fatty, meaty, firm",
+        "des": "Tuna is another popular choice, thanks to its mild but luxurious flavor and versatility. The light canned kind—which is typically skipjack tuna—is the leanest and lowest in mercury. Bluefin, yellowfin and white tuna (aka albacore) tend to be higher in mercury, but not detrimentally so—it’s still safe to eat them all in moderation. Tuna steaks are prime for searing in a pan or popping on the grill. Tuna is also popularly served raw in poke bowls and sushi."
+    },
+    {
+        "image": "https://i.ibb.co/h1MKkXS/fish-3.jpg",
+        "name": "Pacific Halibut",
+        "old_price": 59.99,
+        "new_price": 48.49,
+        "rating": 4.8,
+        "taste": "firm, meaty, mild",
+        "des": "If you don’t consider yourself a fish person (heck, even if you consider yourself a fish hater), Pacific halibut is a nice place to start. It has minimal fishiness in flavor, as well as a palatable, firm mouthfeel that makes it feel meatier than some other fish, thanks to its higher collagen content. Pacific halibut is also loaded with potassium and vitamin D. Like flounder, halibut is a flatfish, meaning it swims sideways and has both eyes on one side of its body. Its texture makes it great for roasting and broiling, since it won’t dry out, but you can also pan-sear, bake, grill or braise it. Avoid Atlantic halibut if possible, as it’s already overfished."
+    },
+    {
+        "image": "https://i.ibb.co/mSR7LBy/fish-4.jpg",
+        "name": "Atlantic Mackerel",
+        "old_price": 69.99,
+        "new_price": 58.49,
+        "rating": 5.0,
+        "taste": "flaky, oily, rich",
+        "des": "Some of the vitamin-rich fish on this list may make this surprising, but not many foods contain a ton of natural vitamin D. Then there’s mackerel, which is not only packed to the gills with it, but it also contains 21 grams of protein per fillet. It has a rich, soft texture and a pronounced flavor that’s sweet and fishy, kind of like tuna. The darker parts of its meat have a stronger taste, so feel free to cut them out for a milder flavor. It’s commonly roasted, baked, pan-seared and even fried. Atlantic mackerel is our pick for its low mercury content (king and Spanish mackerel alternatively have high mercury levels)."
+    },
+    {
+        "image": "https://i.ibb.co/dPh3L06/fish-5.jpg",
+        "name": "Mahi-mahi (dolphinfish)",
+        "old_price": 39.99,
+        "new_price": 48.49,
+        "rating": 4.3,
+        "taste": "firm, sweet",
+        "des": "This pick is super lean since it’s only 1 percent fat by weight. Mahi-mahi has sweet, moist flesh that makes it a solid alternative to tuna or salmon. A tropical fish, mahi-mahi is often paired with warm spices, acidic marinades and fruit salsas starring mango or pineapple. Even better, its firm structure means it can hold its shape against any marinade or cooking method, even grilling. Look for mahi-mahi sourced from Ecuador if you’d like to shop sustainably."
+    },
+    {
+        "image": "https://i.ibb.co/Yfvx1MJ/fish-6.jpg",
+        "name": "Swordfish",
+        "old_price": 29.99,
+        "new_price": 13.49,
+        "rating": 3.8,
+        "taste": "meaty, dense, oily",
+        "des": "Needless to say, swordfish are named for their sharp “sword” bills that they use to hunt. Thanks to their meaty texture and dense flesh, swordfish are great for cubing and grilling or searing by the steak. Because of how they’re caught, swordfish tend to be on the pricy side, so save it for the menu for your next fancy dinner party to justify the splurge."
+    }
+]
