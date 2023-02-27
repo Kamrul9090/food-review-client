@@ -16,7 +16,7 @@ const Navbar = () => {
     }
     return (
         <div className='h-24'>
-            <header className="p-4 dark:bg-gray-800 text-blue-900 dark:text-white fixed w-full">
+            <header className="p-4 bg-gray-200 dark:bg-gray-800 text-blue-900 dark:text-white fixed w-full z-40">
                 <div className="container flex justify-between h-16 mx-auto">
                     <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
                         <h1 className='text-xl lg:text-2xl font-bold font-mono'>Hot Foodies</h1>

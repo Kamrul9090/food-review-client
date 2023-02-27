@@ -18,7 +18,7 @@ const ServiceCard = ({ foodsData }) => {
                         <p className='text-green-600'>${foodsData.new_price}</p>
                     </div>
                     <p className='text-center'>
-                        {foodsData.description.slice(0, 100) + "..."}
+                        {foodsData?.description.slice(0, 100) + "..."}
                     </p>
                     <button class="mt-4 w-full  bg-green-500 text-white py-2 px-4 rounded hover:bg-blue-900 transition-colors duration-300">Details</button>
                 </div>
