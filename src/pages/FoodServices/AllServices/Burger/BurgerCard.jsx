@@ -1,10 +1,16 @@
 import React from 'react';
+import { PhotoProvider, PhotoView } from 'react-photo-view';
+import 'react-photo-view/dist/react-photo-view.css';
 
 const BurgerCard = ({ burger }) => {
     const { image, name, description, new_price, old_price, rating } = burger;
     return (
         <div className="max-w-xs rounded-md shadow-md text-blue-900 dark:bg-gray-900 dark:text-gray-100 relative">
-            <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
+            <PhotoProvider>
+                <PhotoView src={image}>
+                    <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
+                </PhotoView>
+            </PhotoProvider>
             <div className="flex flex-col justify-between p-6 space-y-8">
                 <div className="space-y-2">
                     <div class="flex items-center justify-between mt-2">
