@@ -8,6 +8,9 @@ import rice from '../../../assets/logo/rice.png'
 const AllServicesCategory = () => {
     return (
         <>
+            <div>
+                adsadj
+            </div>
             <section className="p-6 my-6  text-blue-900 dark:text-gray-100">
                 <div className="container grid grid-cols-1 gap-6 mx-auto sm:grid-cols-2 xl:grid-cols-4">
                     <Link to="/AllServices/AllFoods">

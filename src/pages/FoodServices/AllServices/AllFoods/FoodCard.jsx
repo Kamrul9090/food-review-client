@@ -1,33 +1,9 @@
 import React from 'react';
-import { useQuery } from 'react-query';
 import { Link } from 'react-router-dom';
-import { PropagateLoader } from 'react-spinners';
 
 const FoodCard = ({ food }) => {
     const { image, name, description, rating, old_price, new_price, _id } = food;
 
-    // const { data: details = [], isLoading } = useQuery({
-    //     queryKey: ["details", _id],
-    //     queryFn: async () => {
-    //         const res = await fetch(`http://localhost:5000/details/${_id}`, {
-
-    //             method: 'GET',
-    //             headers: {
-    //                 'content-type': 'application/json'
-    //             },
-    //             body: JSON.stringify(food),
-
-    //         });
-    //         const data = res.json();
-    //         return data;
-    //     }
-    // })
-    // console.log(details);
-    // if (isLoading) {
-    //     return <PropagateLoader></PropagateLoader>
-    // }
-
-    // console.log(details);
     return (
         <>
             <div class="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 px-4 mb-4">
