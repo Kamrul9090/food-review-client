@@ -8,7 +8,7 @@ const Gallery = () => {
     const { data: foodsData = [], isLoading } = useQuery({
         queryKey: ["foodsData"],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/foods');
+            const res = await fetch('https://food-review-server-ten.vercel.app/foods');
             const data = res.json();
             return data;
         }
@@ -25,8 +25,8 @@ const Gallery = () => {
     }
     return (
         <AnimationOnScroll initiallyVisible={true} animateIn="animate__bounceInLeft">
-            <h1 className='text-center mt-20 text-4xl font-bold font-mono text-blue-900 dark:text-green-600'>See Our Foods</h1>
-            <section className="py-6 dark:bg-gray-800 dark:text-gray-50">
+            <h1 className='text-center mt-20 text-4xl font-bold font-mono text-blue-900 dark:text-green-600 py-20'>See Our Foods</h1>
+            <section className="py-6 dark:bg-gray-800 dark:text-gray-50 max-w-6xl mx-auto">
                 <div className="container grid grid-cols-2 gap-4 p-4 mx-auto md:grid-cols-4">
                     <Link to='/AllServices/fish' className='className="w-full h-full col-span-2 row-span-2 rounded shadow-sm min-h-96 md:col-start-3 md:row-start-1 dark:bg-gray-500 aspect-square'>
                         <img src={fishImg} alt="" className="aspect-square" title='Fish Items' />

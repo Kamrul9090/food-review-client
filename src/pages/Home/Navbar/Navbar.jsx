@@ -22,7 +22,7 @@ const Navbar = () => {
                         <h1 className='text-xl lg:text-2xl font-bold font-mono'>Hot Foodies</h1>
                         <img src={logo} className="w-10 h-10 lg:w-16 lg:h-16" alt="" srcset="" />
                     </a>
-                    <ul className={`items-stretch space-x-3 absolute lg:static top-24 left-48 space-y-5 lg:space-y-0 p-5 w-36 border-2 lg:border-0 lg:flex ${open ? 'hidden' : 'block'}`}>
+                    <ul className={`items-stretch space-x-3 absolute lg:static top-24 left-48 space-y-5 lg:space-y-0 p-5 w-36 border-2 lg:border-0 lg:flex bg-gray-200 dark:bg-gray-800 ${open ? 'hidden' : 'block'}`}>
                         <li>
                             <Link to='/home'>Home</Link>
                         </li>
@@ -30,7 +30,7 @@ const Navbar = () => {
                             <Link to='/AllServices'>Services</Link>
                         </li>
                         <li>
-                            <Link to='/home'>Reviews</Link>
+                            <Link to='/review'>Reviews</Link>
                         </li>
                         <li>
                             <Link to='/blog'>Blogs</Link>
@@ -38,11 +38,11 @@ const Navbar = () => {
                         <div className="items-center flex-shrink-0 block lg:hidden">
                             {
                                 user?.uid ?
-                                    <button onClick={userLogOut} type='submit' className="self-center px-3 py-3 rounded">Logout</button>
+                                    <button onClick={userLogOut} type='submit' className="self-center px-3 py-1 rounded bg-blue-900 text-gray-200">Logout</button>
                                     :
-                                    <Link to="/signIn"><button className="self-center px-3 py-3 rounded">Sign in</button></Link>
+                                    <Link to="/signIn"><button className="self-center px-3 py-1 rounded bg-blue-900 text-gray-200 dark:bg-slate-200 dark:text-blue-900 font-semibold">Sign in</button></Link>
                             }
-                            <Link to='/signUp'><button className="self-center px-2 py-2 font-semibold rounded dark:bg-slate-200 dark:text-gray-900">Sign up</button></Link>
+                            <Link to='/signUp'><button className="self-center px-2 py-1 font-semibold rounded dark:bg-slate-200 dark:text-gray-900 bg-blue-900 text-gray-200 mt-2">Sign up</button></Link>
                             <Switch onChange={() => toggleTheme()} checked={theme} className="mt-2" />
                         </div>
                     </ul>
@@ -51,9 +51,9 @@ const Navbar = () => {
                             user?.uid ?
                                 <button onClick={userLogOut} type='submit' className="self-center px-3 py-2 rounded">Logout</button>
                                 :
-                                <Link to="/signIn"><button className="self-center px-3 py-2 rounded">Sign in</button></Link>
+                                <Link to="/signIn"><button className="self-center px-3 py-1 font-semibold rounded bg-blue-900 text-gray-200 dark:bg-slate-200 dark:text-gray-900">Sign in</button></Link>
                         }
-                        <Link to="/signUp"><button className="self-center px-3 py-2 font-semibold rounded dark:bg-slate-200 dark:text-gray-900">Sign up</button></Link>
+                        <Link to="/signUp"><button className="self-center px-3 py-1 font-semibold rounded dark:bg-slate-200 dark:text-gray-900 bg-blue-900 text-gray-200">Sign up</button></Link>
                         <Switch onChange={() => toggleTheme()} checked={theme} />
                     </div>
                     <button className="p-4 lg:hidden" onClick={() => setOpen(!open)}>

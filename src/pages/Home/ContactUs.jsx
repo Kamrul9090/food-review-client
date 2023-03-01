@@ -32,15 +32,15 @@ const ContactUs = () => {
             <form ref={form} onSubmit={sendEmail} novalidate="" className="space-y-6 ng-untouched ng-pristine ng-valid" data-form-type="contact">
                 <div>
                     <label for="name" className="text-sm">Full name</label>
-                    <input id="name" name='name' type="text" placeholder="" className="w-full p-3 rounded dark:bg-gray-800" required />
+                    <input id="name" name='name' type="text" placeholder="" className="w-full p-3 rounded dark:bg-gray-200" required />
                 </div>
                 <div>
                     <label for="email" className="text-sm">Email</label>
-                    <input id="email" name='email' type="email" className="w-full p-3 rounded dark:bg-gray-800" required />
+                    <input id="email" name='email' type="email" className="w-full p-3 rounded dark:bg-gray-200" required />
                 </div>
                 <div>
                     <label for="message" className="text-sm">Message</label>
-                    <textarea id="message" name='message' rows="3" className="w-full p-3 rounded dark:bg-gray-800" spellcheck="false" data-form-type="other" required></textarea>
+                    <textarea id="message" name='message' rows="3" className="w-full p-3 rounded dark:bg-gray-200" spellcheck="false" data-form-type="other" required></textarea>
                 </div>
                 <button type="submit" className="w-full p-3 text-sm font-bold tracking-wide uppercase rounded text-white hover:bg-green-500 dark:bg-green-500 dark:text-white bg-blue-900">Send Message</button>
             </form>

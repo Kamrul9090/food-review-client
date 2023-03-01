@@ -3,6 +3,7 @@ import DisplayServices from '../FoodServices/AllServices/DisplayServices/Display
 import Banner from './Banner/Banner';
 import Bonus from './Bonus';
 import ContactUs from './ContactUs';
+import Feature from './Feature';
 import Gallery from './Gallery/Gallery';
 import Teams from './Teams';
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <Gallery></Gallery>
             <Teams></Teams>
             <Bonus></Bonus>
+            <Feature></Feature>
             <ContactUs></ContactUs>
         </div>
     );

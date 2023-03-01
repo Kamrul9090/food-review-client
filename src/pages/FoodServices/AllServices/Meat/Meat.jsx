@@ -8,7 +8,7 @@ const Meat = () => {
     const { data: foodsData = [], isLoading } = useQuery({
         queryKey: ["foodsData"],
         queryFn: async () => {
-            const res = await fetch('http://localhost:5000/foods');
+            const res = await fetch('https://food-review-server-ten.vercel.app/foods');
             const data = res.json();
             return data;
         }

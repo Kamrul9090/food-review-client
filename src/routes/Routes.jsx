@@ -1,3 +1,4 @@
+import ErrorElement from "../components/ErrorElement/ErrorElement";
 import Main from "../layout/Main";
 import Blog from "../pages/Blog/Blog";
 import Details from "../pages/DetailsSection/Details/Details";
@@ -17,6 +18,7 @@ export const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
+        errorElement: <ErrorElement></ErrorElement>,
         children: [
             {
                 path: '/',
@@ -29,7 +31,7 @@ export const router = createBrowserRouter([
             {
                 path: '/details/:id',
                 element: <Details></Details>,
-                loader: ({ params }) => fetch(`http://localhost:5000/details/${params.id}`),
+                loader: ({ params }) => fetch(`https://food-review-server-ten.vercel.app/details/${params.id}`),
             },
             {
                 path: '/AllServices',
