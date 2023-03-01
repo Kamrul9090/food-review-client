@@ -59,7 +59,7 @@ const SignUp = () => {
     }
     return (
         <div className='bg-sign p-10'>
-            <div className="w-full max-w-md p-8 mx-auto rounded-md bg-slate-200 dark:bg-orange-700 dark:text-gray-100">
+            <div className="w-full max-w-md p-8 mx-auto rounded-md bg-slate-200 dark:bg-gray-900 dark:text-gray-100">
                 <h1 className="text-2xl font-bold text-center">Sign Up</h1>
                 <form onSubmit={handleSubmit(onSubmit)} novalidate="" action="" className="space-y-6 ng-untouched ng-pristine ng-valid" data-dashlane-rid="c1e2a49c61478f00" data-form-type="login">
                     <div className="space-y-1 text-sm">
@@ -89,7 +89,7 @@ const SignUp = () => {
                             type="password" placeholder="Password" className="w-full px-4 py-3 rounded-md dark:border-gray-700 bg-gray-900 dark:bg-white dark:text-black focus:dark:border-violet-400" required />
                         {errors.password && <small role="alert" className='text-red-500 dark:text-white'>{errors.password?.message}</small>}
                     </div>
-                    <button disabled={isSubmitting} className="block w-full font-bold p-3 text-center rounded-lg text-white dark:bg-gray-900 bg-white" type='submit'>Sign Up</button>
+                    <button disabled={isSubmitting} className="block w-full font-bold p-3 text-center rounded-lg dark:text-gray-600  dark:bg-gray-200 bg-gray-900 text-white" type='submit'>Sign Up</button>
                     {error?.signInError && <small role="alert" className='text-red-500 dark:text-white'>{error.signInError}</small>}
                 </form>
                 <div className="flex items-center pt-4 space-x-1">

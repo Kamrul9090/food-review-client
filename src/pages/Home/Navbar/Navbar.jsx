@@ -1,6 +1,6 @@
 import React, { useContext, useState } from 'react';
 import { HiViewList, HiX } from 'react-icons/hi';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import Switch from "react-switch";
 import { AuthContext } from '../../../context/AuthProvider';
 import logo from '../../../assets/logo/logo.png'
@@ -8,10 +8,12 @@ const Navbar = () => {
     const [open, setOpen] = useState(false)
     const { toggleTheme, theme, user, logOut } = useContext(AuthContext)
     console.log(user);
-
+    const navigate = useNavigate();
     const userLogOut = () => {
         logOut()
-            .then(() => { })
+            .then(() => {
+                navigate('/signIn')
+            })
             .catch(e => console.log(e))
     }
     return (
