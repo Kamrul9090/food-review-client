@@ -2,10 +2,9 @@ import React from 'react';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 import { useQuery } from 'react-query';
 import { PropagateLoader } from 'react-spinners';
-import BurgerCard from './BurgerCard';
+import MeatCard from './MeatCard';
 
-const Burger = () => {
-
+const Meat = () => {
     const { data: foodsData = [], isLoading } = useQuery({
         queryKey: ["foodsData"],
         queryFn: async () => {
@@ -14,34 +13,26 @@ const Burger = () => {
             return data;
         }
     })
-    const burgerData = foodsData[2]?.category;
+    const meatData = foodsData[1]?.category;
     if (isLoading) {
         return <PropagateLoader></PropagateLoader>
     }
-    for (const a of foodsData) {
-        const data = a.category;
-        // for (const foods of data) {
-        //     console.log(foods.name);
-        // }
-        console.log(data.find(d => d.name === "BBQ Bacon Burger"));
-    }
-    console.log(foodsData);
     return (
         <>
             <AnimationOnScroll initiallyVisible={true} animateIn="animate__backInUp">
 
                 <div className='w-1/4 mx-auto text-center mb-20 text-blue-900'>
-                    <h1 className='text-3xl font-bold'>See All Burgers.</h1>
-                    <p className='text-lg font-semibold'>here has our all-burgers foods collection.</p>
+                    <h1 className='text-3xl font-bold'>See All Meats Foods</h1>
+                    <p className='text-lg font-semibold'>here has our all-meats base foods collection.</p>
                 </div>
             </AnimationOnScroll>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-5'>
                 {
-                    burgerData.map(burger => <BurgerCard key={burger._id} burger={burger}></BurgerCard>)
+                    meatData.map(meat => <MeatCard key={meat._id} meat={meat}></MeatCard>)
                 }
             </div>
         </>
     );
 };
 
-export default Burger;
+export default Meat;

@@ -1,7 +1,33 @@
 import React from 'react';
+import { useQuery } from 'react-query';
+import { Link } from 'react-router-dom';
+import { PropagateLoader } from 'react-spinners';
 
 const FoodCard = ({ food }) => {
-    const { image, name, description, rating, old_price, new_price } = food;
+    const { image, name, description, rating, old_price, new_price, _id } = food;
+
+    // const { data: details = [], isLoading } = useQuery({
+    //     queryKey: ["details", _id],
+    //     queryFn: async () => {
+    //         const res = await fetch(`http://localhost:5000/details/${_id}`, {
+
+    //             method: 'GET',
+    //             headers: {
+    //                 'content-type': 'application/json'
+    //             },
+    //             body: JSON.stringify(food),
+
+    //         });
+    //         const data = res.json();
+    //         return data;
+    //     }
+    // })
+    // console.log(details);
+    // if (isLoading) {
+    //     return <PropagateLoader></PropagateLoader>
+    // }
+
+    // console.log(details);
     return (
         <>
             <div class="w-full md:w-1/2 lg:w-1/2 xl:w-1/2 px-4 mb-4">
@@ -16,7 +42,7 @@ const FoodCard = ({ food }) => {
                             <span class="text-green-600 text-sm ml-auto">20% off</span>
                         </div>
                         <div class="flex items-center mt-4">
-                            <a href="#" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Details</a>
+                            <Link to={`/details/${_id}`}><button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-full">Details</button></Link>
                             <div class="flex items-center ml-auto">
                                 <svg class="w-5 h-5 fill-current text-yellow-500 mr-2" viewBox="0 0 24 24">
                                     <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />

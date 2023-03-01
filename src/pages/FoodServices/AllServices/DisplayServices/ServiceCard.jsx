@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const ServiceCard = ({ foodsData }) => {
+    // console.log(foodsData._id);
     return (
         <>
             <div class="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300">
@@ -20,7 +22,7 @@ const ServiceCard = ({ foodsData }) => {
                     <p className='text-center'>
                         {foodsData?.description.slice(0, 100) + "..."}
                     </p>
-                    <button class="mt-4 w-full  bg-green-500 text-white py-2 px-4 rounded hover:bg-blue-900 transition-colors duration-300">Details</button>
+                    <Link to={`/details/${foodsData._id}`}><button class="mt-4 w-full  bg-green-500 text-white py-2 px-4 rounded hover:bg-blue-900 transition-colors duration-300">Details</button></Link>
                 </div>
             </div>
 

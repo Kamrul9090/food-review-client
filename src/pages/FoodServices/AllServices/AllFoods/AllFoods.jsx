@@ -13,7 +13,7 @@ const AllFoods = () => {
             return data;
         }
     })
-    console.log(AllFoods);
+
     if (isLoading) {
         return <PropagateLoader></PropagateLoader>
     }
@@ -30,7 +30,6 @@ const AllFoods = () => {
                 {
                     AllFoods.map(food => <FoodCard key={food._id} food={food}></FoodCard>)
                 }
-
             </div>
         </div>
     );

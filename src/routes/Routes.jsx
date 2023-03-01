@@ -1,12 +1,12 @@
 import Main from "../layout/Main";
 import Blog from "../pages/Blog/Blog";
+import Details from "../pages/DetailsSection/Details/Details";
 import AllFoods from "../pages/FoodServices/AllServices/AllFoods/AllFoods";
 import AllServices from "../pages/FoodServices/AllServices/AllServices";
 import Burger from "../pages/FoodServices/AllServices/Burger/Burger";
-import Fish from "../pages/FoodServices/AllServices/Fish";
-import Meat from "../pages/FoodServices/AllServices/Meat";
-import Rice from "../pages/FoodServices/AllServices/Rice";
-import Services from "../pages/FoodServices/AllServices/Services";
+import Fish from "../pages/FoodServices/AllServices/Fish/Fish";
+import Meat from "../pages/FoodServices/AllServices/Meat/Meat";
+import Rice from "../pages/FoodServices/AllServices/Rice/Rice";
 import Home from "../pages/Home/Home";
 import SignIn from "../pages/Sign in/SignIn";
 import SignUp from "../pages/Sign in/SignUp";
@@ -25,6 +25,11 @@ export const router = createBrowserRouter([
             {
                 path: '/home',
                 element: <Home></Home>
+            },
+            {
+                path: '/details/:id',
+                element: <Details></Details>,
+                loader: ({ params }) => fetch(`http://localhost:5000/details/${params.id}`),
             },
             {
                 path: '/AllServices',

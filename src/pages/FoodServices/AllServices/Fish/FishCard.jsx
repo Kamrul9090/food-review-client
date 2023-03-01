@@ -1,10 +1,8 @@
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
-import 'react-photo-view/dist/react-photo-view.css';
-import { Link } from 'react-router-dom';
 
-const BurgerCard = ({ burger }) => {
-    const { image, name, description, new_price, old_price, rating, _id } = burger;
+const FishCard = ({ fish }) => {
+    const { image, name, description, new_price, old_price, rating } = fish;
     return (
         <div className="max-w-xs rounded-md shadow-md text-blue-900 dark:bg-gray-900 dark:text-gray-100 relative">
             <PhotoProvider>
@@ -30,11 +28,11 @@ const BurgerCard = ({ burger }) => {
                         <h2 className="text-xl font-semibold tracking-wide">{name}</h2>
                         <p className="dark:text-gray-100 text-justify">{description.slice(0, 100) + "..."}</p>
                     </div>
-                    <Link to={`/details/${_id}`}><button type="button" className="flex items-center justify-center absolute bottom-0 left-0 w-full py-3 font-semibold tracking-wide rounded-md dark:bg-violet-400 dark:text-gray-900">Read more</button></Link>
+                    <button type="button" className="flex items-center justify-center absolute bottom-0 left-0 w-full py-3 font-semibold tracking-wide rounded-md dark:bg-violet-400 dark:text-gray-900">Details</button>
                 </div>
             </div>
         </div>
     );
 };
 
-export default BurgerCard;
+export default FishCard;

@@ -17,7 +17,6 @@ const DisplayServices = () => {
     if (isLoading) {
         return <PropagateLoader></PropagateLoader>
     }
-    console.log(AllFoodsData);
 
     return (
         <>
