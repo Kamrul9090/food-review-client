@@ -1,11 +1,12 @@
 import React from 'react';
 import { PhotoProvider, PhotoView } from 'react-photo-view';
+import { Link } from 'react-router-dom';
 
 const MeatCard = ({ meat }) => {
     const { image, name, description, new_price, old_price, rating } = meat;
 
     return (
-        <div className="max-w-xs rounded-md shadow-md text-blue-900 dark:bg-gray-900 dark:text-gray-100 relative">
+        <div className="max-w-xs rounded-md shadow-xl bg-gray-200 text-blue-900 dark:bg-gray-900 dark:text-gray-100 relative">
             <PhotoProvider>
                 <PhotoView src={image}>
                     <img src={image} alt="" className="object-cover object-center w-full rounded-t-md h-72 dark:bg-gray-500" />
@@ -29,7 +30,7 @@ const MeatCard = ({ meat }) => {
                         <h2 className="text-xl font-semibold tracking-wide">{name}</h2>
                         <p className="dark:text-gray-100 text-justify">{description.slice(0, 100) + "..."}</p>
                     </div>
-                    <button type="button" className="flex items-center justify-center absolute bottom-0 left-0 w-full py-3 font-semibold tracking-wide rounded-md dark:bg-violet-400 dark:text-gray-900">Details</button>
+                    <Link><button type="button" className="flex items-center justify-center absolute bottom-0 left-0 w-full py-3 font-semibold tracking-wide rounded-md bg-gray-300 shadow-xl dark:bg-green-600 dark:text-gray-900">Buy Now</button></Link>
                 </div>
             </div>
         </div>
