@@ -16,7 +16,7 @@ const AllServicesCategory = () => {
                     <Link to="/AllServices/AllFoods">
                         <div className="flex px-2 space-x-2 rounded-lg shadow-xl md:space-x-6 bg-gray-200 dark:bg-gray-900 dark:text-gray-100">
                             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-200">
-                                <img className='w-20 h-20' src={allFoods} alt="" srcset="" />
+                                <img className='w-20 h-20' src={allFoods} alt="" secSet="" />
                             </div>
                             <div className="flex flex-col justify-center align-middle">
                                 <p className="text-xl font-semibold leading-none">See All</p>
@@ -27,7 +27,7 @@ const AllServicesCategory = () => {
                     <Link to="/AllServices/burger">
                         <div className="flex px-2 space-x-4 rounded-lg shadow-xl md:space-x-6 bg-gray-200 dark:bg-gray-900 dark:text-gray-100">
                             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-200">
-                                <img className='w-20 h-20' src={burger} alt="" srcset="" />
+                                <img className='w-20 h-20' src={burger} alt="" secSet="" />
                             </div>
                             <div className="flex flex-col justify-center align-middle">
                                 <p className="text-xl font-semibold leading-none">See All</p>
@@ -38,7 +38,7 @@ const AllServicesCategory = () => {
                     <Link to="/AllServices/fish">
                         <div className="flex px-2 space-x-4 rounded-lg shadow-xl md:space-x-6 dark:bg-gray-900 bg-gray-200 dark:text-gray-100">
                             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-200">
-                                <img className='w-20 h-20' src={fish} alt="" srcset="" />
+                                <img className='w-20 h-20' src={fish} alt="" secSet="" />
                             </div>
                             <div className="flex flex-col justify-center align-middle">
                                 <p className="text-xl font-semibold leading-none">See All</p>
@@ -49,7 +49,7 @@ const AllServicesCategory = () => {
                     <Link to="/AllServices/meat">
                         <div className="flex px-2 space-x-4 rounded-lg shadow-xl md:space-x-6 dark:bg-gray-900 bg-gray-200 dark:text-gray-100">
                             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-200">
-                                <img className='w-20 h-20' src={meat} alt="" srcset="" />
+                                <img className='w-20 h-20' src={meat} alt="" secSet="" />
                             </div>
                             <div className="flex flex-col justify-center align-middle">
                                 <p className="text-xl font-semibold leading-none">See All</p>
@@ -60,7 +60,7 @@ const AllServicesCategory = () => {
                     <Link to="/AllServices/rice">
                         <div className="flex px-2 space-x-4 rounded-lg shadow-xl md:space-x-6 dark:bg-gray-900 bg-gray-200 dark:text-gray-100">
                             <div className="flex justify-center p-2 align-middle rounded-lg sm:p-4 dark:bg-gray-200">
-                                <img className='w-20 h-20' src={rice} alt="" srcset="" />
+                                <img className='w-20 h-20' src={rice} alt="" secSet="" />
                             </div>
                             <div className="flex flex-col justify-center align-middle">
                                 <p className="text-xl font-semibold leading-none">See All</p>

@@ -22,7 +22,7 @@ const Navbar = () => {
                 <div className="container flex justify-between h-16 mx-auto">
                     <a rel="noopener noreferrer" href="#" aria-label="Back to homepage" className="flex items-center p-2">
                         <h1 className='text-xl lg:text-2xl font-bold font-mono'>Hot Foodies</h1>
-                        <img src={logo} className="w-10 h-10 lg:w-16 lg:h-16" alt="" srcset="" />
+                        <img src={logo} className="w-10 h-10 lg:w-16 lg:h-16" alt="" secSet="" />
                     </a>
                     <ul className={`items-stretch space-x-3 absolute lg:static top-24 left-48 space-y-5 lg:space-y-0 p-5 w-36 border-2 lg:border-0 lg:flex bg-gray-200 dark:bg-gray-800 ${open ? 'hidden' : 'block'}`}>
                         <li>

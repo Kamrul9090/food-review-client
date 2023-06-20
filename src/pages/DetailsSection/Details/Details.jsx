@@ -1,12 +1,12 @@
 import React from 'react';
 import { useQuery } from 'react-query';
-import { useLoaderData } from 'react-router-dom';
+import { Link, useLoaderData } from 'react-router-dom';
 import { PropagateLoader } from 'react-spinners';
 
 const Details = () => {
     const singleFoodData = useLoaderData();
     console.log(singleFoodData);
-    const { image, name, rating, old_price, new_price, description } = singleFoodData;
+    const { _id, image, name, rating, old_price, new_price, description } = singleFoodData;
     // All category foods data
     const { data: foodsData = [], isLoading } = useQuery({
         queryKey: ["foodsData"],
@@ -43,21 +43,22 @@ const Details = () => {
                                 <p className="text-lg font-medium leading-snug">Others Info</p>
                                 <div>
                                     <div>
-                                        <span class=" font-bold text-xl mr-2">New Price: ${new_price}</span>
-                                        <span class="text-gray-700 font-bold text-sm line-through">Old Price: ${old_price}</span>
+                                        <span className=" font-bold text-xl mr-2">New Price: ${new_price}</span>
+                                        <span className="text-gray-700 font-bold text-sm line-through">Old Price: ${old_price}</span>
                                     </div>
                                     <div className='flex items-center'>
                                         <span>Rating:</span>
-                                        <svg class="w-5 h-5 fill-current text-yellow-500 mr-2" viewBox="0 0 24 24">
+                                        <svg className="w-5 h-5 fill-current text-yellow-500 mr-2" viewBox="0 0 24 24">
                                             <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
                                         </svg>
-                                        <span class="text-gray-600 text-sm">{rating}</span>
+                                        <span className="text-gray-600 text-sm">{rating}</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="flex space-x-2 sm:space-x-4">
-                            <button type="button" className="flex items-center justify-center py-3 font-semibold tracking-wide rounded-md dark:bg-gray-200 dark:text-black px-2">Buy Now</button>
+                            <button type="button" className="flex items-center justify-center py-3 font-semibold tracking-wide rounded-md bg-blue-900 text-white dark:bg-gray-200 dark:text-black px-2">Buy Now</button>
+                            <Link to={`/review/${_id}`}><button type="button" className="flex items-center justify-center py-3 font-semibold tracking-wide rounded-md bg-blue-900 text-white dark:bg-gray-200 dark:text-black px-2">Review</button></Link>
                         </div>
                     </div>
                     <div className="lg:w-1/2 xl:w-3/5 dark:bg-gray-800">

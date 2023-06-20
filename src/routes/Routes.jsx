@@ -2,6 +2,7 @@ import ErrorElement from "../components/ErrorElement/ErrorElement";
 import Main from "../layout/Main";
 import Blog from "../pages/Blog/Blog";
 import Details from "../pages/DetailsSection/Details/Details";
+import Review from "../pages/DetailsSection/Details/Review";
 import AllFoods from "../pages/FoodServices/AllServices/AllFoods/AllFoods";
 import AllServices from "../pages/FoodServices/AllServices/AllServices";
 import Burger from "../pages/FoodServices/AllServices/Burger/Burger";
@@ -34,6 +35,11 @@ export const router = createBrowserRouter([
                 loader: ({ params }) => fetch(`https://food-review-server-ten.vercel.app/details/${params.id}`),
             },
             {
+                path: '/review/:id',
+                element: <Review></Review>,
+                loader: ({ params }) => fetch(`http://localhost:5000/review/${params.id}`),
+            },
+            {
                 path: '/AllServices',
                 element: <AllServices></AllServices>,
                 children: [
@@ -57,6 +63,7 @@ export const router = createBrowserRouter([
                         path: '/AllServices/meat',
                         element: <Meat></Meat>
                     },
+
                 ]
             },
 

@@ -6,6 +6,7 @@ import ContactUs from './ContactUs';
 import Feature from './Feature';
 import Gallery from './Gallery/Gallery';
 import Teams from './Teams';
+import BlogCarousel from './BlogCarousel/BlogCarousel';
 const Home = () => {
 
     return (
@@ -16,6 +17,7 @@ const Home = () => {
             <Teams></Teams>
             <Bonus></Bonus>
             <Feature></Feature>
+            <BlogCarousel></BlogCarousel>
             <ContactUs></ContactUs>
         </div>
     );

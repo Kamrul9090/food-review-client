@@ -26,7 +26,7 @@ const AllFoods = () => {
                     <p className='text-lg font-semibold'>There has our all-foods collection. Like Meat,  Fast food, Fish and Rice, base foods.</p>
                 </div>
             </AnimationOnScroll>
-            <div class="flex flex-wrap -mx-4">
+            <div className="flex flex-wrap -mx-4">
                 {
                     AllFoods.map(food => <FoodCard key={food._id} food={food}></FoodCard>)
                 }

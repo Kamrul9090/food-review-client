@@ -3,14 +3,14 @@ import logo from '../../assets/logo/logo.png'
 import { FaEnvelope, FaHome, FaPhoneAlt, } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className='mt-auto'>
+        <div className=''>
             <footer className="py-6 dark:bg-gray-800 text-blue-900 bg-gray-300 dark:text-gray-50">
                 <div className="container px-6 mx-auto space-y-6 divide-y divide-gray-400 md:space-y-12 divide-opacity-50">
                     <div className="grid grid-cols-1 lg:grid-cols-12 ">
                         <div className="pb-6 col-span-full md:pb-0 md:col-span-6">
                             <a rel="noopener noreferrer" href="#" className="flex justify-center space-x-3 md:justify-start">
                                 <div className="flex items-center justify-center w-20 h-20 rounded-full dark:bg-violet-400">
-                                    <img src={logo} alt="" srcset="" />
+                                    <img src={logo} alt="" secSet="" />
                                 </div>
                                 <span className="self-center text-2xl font-semibold"><p>Hot Foodies<br /><small className='text-blue-900 dark:text-slate-300'>Providing reliable fast food since 2018</small></p></span>
                             </a>

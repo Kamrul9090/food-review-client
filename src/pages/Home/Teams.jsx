@@ -25,13 +25,13 @@ const Teams = () => {
                                     <p className="text-sm dark:text-gray-100">{chef.position}</p>
                                     <div className="flex mt-2 space-x-2">
                                         <a rel="noopener noreferrer" href="#" title="facebook" className="dark:text-gray-400">
-                                            <img src={facebook} alt="" srcset="" />
+                                            <img src={facebook} alt="" secSet="" />
                                         </a>
                                         <a rel="noopener noreferrer" href="#" title="instagram" className="dark:text-gray-400">
-                                            <img src={instragram} alt="" srcset="" />
+                                            <img src={instragram} alt="" secSet="" />
                                         </a>
                                         <a rel="noopener noreferrer" href="#" title="twiter" className="dark:text-gray-400">
-                                            <img src={twitter} alt="" srcset="" />
+                                            <img src={twitter} alt="" secSet="" />
                                         </a>
                                     </div>
                                 </div>
