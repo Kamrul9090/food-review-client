@@ -4,7 +4,6 @@ import Carousel from 'react-grid-carousel'
 const BlogCarouselCard = ({ AllBlogs }) => {
     return (
         <div>
-
             <Carousel cols={1} rows={1} gap={10} loop>
                 {
                     AllBlogs.map(blog => <Carousel.Item>
