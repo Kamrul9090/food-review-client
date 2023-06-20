@@ -7,6 +7,7 @@ import Feature from './Feature';
 import Gallery from './Gallery/Gallery';
 import Teams from './Teams';
 import BlogCarousel from './BlogCarousel/BlogCarousel';
+import ReviewShowcase from './ReviewShowcase/ReviewShowcase';
 const Home = () => {
 
     return (
@@ -18,6 +19,7 @@ const Home = () => {
             <Bonus></Bonus>
             <Feature></Feature>
             <BlogCarousel></BlogCarousel>
+            <ReviewShowcase></ReviewShowcase>
             <ContactUs></ContactUs>
         </div>
     );

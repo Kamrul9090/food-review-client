@@ -7,7 +7,7 @@ import { useLoaderData } from 'react-router-dom';
 const Review = () => {
     const singleFoodData = useLoaderData();
 
-    const { register, handleSubmit, reset, formState: { errors, isSubmitting } } = useForm();
+    const { register, handleSubmit, reset } = useForm();
     const publishDate = new Date();
     const date = format(publishDate, 'PP')
 
