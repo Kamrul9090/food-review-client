@@ -11,10 +11,10 @@ const ReviewShowcase = () => {
             .then(data => setReviews(data));
 
     }, [])
-    console.log(reviews);
+
     return (
-        <div className='max-w-6xl mx-auto'>
-            <h1 className='text-5xl text-center font-bold'>Reviews</h1>
+        <div className='max-w-6xl mx-auto mb-32'>
+            <h1 className='text-5xl text-center font-bold py-10'>Reviews</h1>
             <Carousel cols={2} rows={1} gap={10} loop>
                 {
                     reviews.map(review => <Carousel.Item>

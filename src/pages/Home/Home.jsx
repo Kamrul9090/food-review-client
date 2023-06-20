@@ -8,6 +8,7 @@ import Gallery from './Gallery/Gallery';
 import Teams from './Teams';
 import BlogCarousel from './BlogCarousel/BlogCarousel';
 import ReviewShowcase from './ReviewShowcase/ReviewShowcase';
+import OurAchievement from './Stats/OurAchievement';
 const Home = () => {
 
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <BlogCarousel></BlogCarousel>
             <ReviewShowcase></ReviewShowcase>
             <ContactUs></ContactUs>
+            <OurAchievement></OurAchievement>
         </div>
     );
 };
